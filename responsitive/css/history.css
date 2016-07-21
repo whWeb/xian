@@ -1,0 +1,22 @@
+/* CSS Document */
+#container .list h2{
+	font-size:40px;
+}
+#container .list p, #container .list address{
+	font-size:20px;
+}
+#container .introduction section{
+	color:#666;
+}
+#container .introduction p{
+	line-height:2;
+	font-size:20px;
+	margin:20px 0;
+}
+#container .introduction section address{
+	font-style:normal;
+	font-size:20px;
+	margin:20px auto;
+	line-height:1.6;
+}
+

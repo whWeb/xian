@@ -1,0 +1,467 @@
+/* CSS Document */
+/*当页面大于 1200px 时，大屏幕，主要是 PC 端*/
+@media (min-width: 1200px) {
+}
+/*在 992 和 1199 像素之间的屏幕里，中等屏幕，分辨率低的 PC*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#adver .center{
+		width:50%;
+		margin:-65px 0px 0px -10%;
+	}
+	#content .center h1{
+		font-size:40px;
+	}
+	#headline hgroup h1{
+		font-size:36px;
+	}
+	#headline hgroup h2, #container .pic h2{
+		font-size:20px;
+	}
+	#container .pic h2{
+		font-size:30px;
+	}
+	#container .sidebar{
+		display:none;
+	}
+	#container .list{
+		width:99%;
+		padding:0 20px;
+	}
+	#container .tour figcaption header{
+		width:90%;
+	}
+	#container .tour ol{
+		width:calc(90% - 25px);
+		line-height:2;
+	}
+	#container .tour figcaption .buy{
+		left:65%;
+		bottom:35px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1126px) {
+	#container .tour figcaption hgroup{
+		line-height:1.5;
+	}
+	#container .tour .price{
+		margin-bottom:5px;
+	}
+}
+/*在 768 和 991 像素之间的屏幕里，小屏幕，主要是 PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+		#adver .center{
+			width:55%;
+			height:52px;
+			margin:-40px 0px 0px -10%;
+		}
+		#adver input.search,#adver input.btn{
+			font-size:20px;
+			height:48px;
+		}
+		#content .center h1{
+			font-size:35px;
+		}
+		#headline hgroup h1{
+			font-size:30px;
+		}
+		#headline hgroup h2{
+			font-size:16px;
+		}
+		#container .sidebar, .tour ol{
+			display:none;
+		}
+		#container .list{
+			width:99%;
+			padding:0 20px;
+		}
+		#container .introduction h2, #container .pic h2, #container .ticket h2{
+			font-size:28px;
+		}
+		#container .introduction p{
+			font-size:18px;
+		}
+		#container .introduction address{
+			font-size:18px;
+		}
+		#container .pic figcaption{
+			font-size:16px;
+		}
+		#container .ticket .left, #container .ticket .right, #container .ticket .bnt{
+			width:98%;
+			display:block;
+		} 
+		#container .ticket input{
+			width:98%;
+			height:35px;
+		}
+		#container .ticket p{
+			line-height:2;
+		}
+		#container .ticket .submit{
+			display:block;
+			width:30%;
+			height:auto;
+			line-height:2;
+			position:static;
+			margin:10px auto;
+		}
+		#container #info{
+			font-size:18px;
+		}
+		#container .tour h2{
+			font-size:22px;
+		}
+		#container .tour figcaption header{
+			width:90%;
+		}
+		#container .tour figcaption .buy{
+			left:65%;
+			bottom:35px;
+		}
+}
+@media (min-width: 768px) and (max-width: 910px) {
+		#container .tour figcaption .buy{
+			width:15%;
+			left:65%;
+			bottom:5px;
+		}
+		.tour .hidden{
+			display:none;
+		}
+		#container .tour .price{
+			margin-bottom:5px;
+		}
+}
+/*在 480 和 767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+	#nav, #nav .center, #nav ul li{
+		height:45px;
+	}
+	#nav ul li{
+		line-height:45px;
+	}
+	#nav .center h1,#footer #link,#footer #link, #container .sidebar, .tour .hidden{
+		display:none;
+	}
+	#nav ul{
+		width:100%;
+	}
+	#adver,#headline{
+		padding:45px 0 0 0;
+	}
+	#adver .center{
+		width:55%;
+		height:43px;
+		margin:-25px 0px 0px -10%;
+	}
+	#adver input.search,#adver input.btn{
+		font-size:16px;
+		height:39px;
+	}
+	#footer .sm-visible{
+		display:block;
+	}
+	#content .center h1{
+		font-size:30px;
+	}
+	#content .center p{
+		font-size:14px;
+	}
+	#content figure, #container .pic figure{
+		width:49.2%;
+	}
+	#headline hgroup h1{
+		font-size:26px;
+	}
+	#headline hgroup h2{
+		font-size:14px;
+	}
+	#container .list{
+		width:99%;
+		padding:0 20px;
+	}
+	#container .pic figure{
+		width:46.2%;
+	}
+	#container .introduction h2, #container .pic h2, #container .ticket h2{
+		font-size:25px;
+	}
+	#container .introduction p{
+		font-size:15px;
+	}
+	#container .introduction address{
+		font-size:15px;
+	}
+	#container .pic figcaption, #container .ticket .new ul,#container .ticket table, #container .ticket table .reserve{
+		font-size: 16px;
+	}
+	#container .ticket .left, #container .ticket .right, #container .ticket .bnt{
+		width:98%;
+		display:block;
+	}
+	#container .ticket input{
+		width:98%;
+		height:35px;
+	}
+	#container .ticket p{
+		line-height:2;
+	}
+	#container .ticket .submit{
+		display:block;
+		width:30%;
+		height:auto;
+		line-height:2;
+		font-size:16px;
+		position:static;
+		margin:10px auto;
+	}
+	#container .tour figcaption header{
+		width:90%;
+	}
+	#container .tour figcaption .buy{
+		width:20%;
+		left:65%;
+		bottom:15px;
+	}
+	#container .tour figcaption hgroup{ 
+		line-height:1.5;
+	}
+	#container .tour .price strong{
+		font-size:30px;	
+	}
+	#container .tour .reserve{
+		font-size:20px;		
+	}
+	#container .tour .reserve{
+		height:35px;
+		line-height:35px;
+	}
+	#container #info{
+		font-size:16px;
+	}
+	#container .tour h2{
+		font-size:18px;
+	}
+	#container #info{
+		height:40px;
+	}
+	#container #info #sale, #container #info #res li{
+		height:40px;
+		line-height:40px;
+	}
+	#container .tour .disc, #container .tour .disc span {
+		height: 47px;
+		width: 47px;
+		font-size:14px;
+	}
+	#container .tour .tip{
+		width:60px;
+		height:20px;
+		font-size:10px;
+	}
+}
+@media (min-width: 480px) and (max-width: 716px) {
+
+	.tour hgroup h3{
+		display:none;
+	}
+	#container .tour figcaption .buy{
+		bottom:25px;
+	}
+	#container .tour .price{
+		margin-bottom:5px;
+	}
+}
+@media (min-width: 600px) and (max-width: 715px) {
+
+	.tour hgroup h3{
+		display:none;
+	}
+	#container .tour .price{
+		margin-bottom:15px;
+	}
+	#container .tour figcaption .buy{
+		bottom:35px;
+	}
+}
+@media (min-width: 478px) and (max-width: 546px){
+	#container .tour .price s{
+		display:none;
+	}	
+	#container .tour .disc, #container .tour .disc span {
+		height: 43px;
+		width: 43px;
+		font-size:11px;
+	}
+	#container .tour .price strong{
+		font-size:25px;	
+	}
+	#container .tour figcaption .buy{
+		bottom:15px;
+	}
+	#container .tour .reserve{
+		font-size:16px;	
+	}
+}
+/*在小于 480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+	#nav, #nav .center, #nav ul li{
+		height:45px;
+	}
+	#nav ul li{
+		line-height:45px;
+	}
+	#nav .center h1, .hidden, #container .sidebar, .tour .hidden,.tour hgroup h3{
+		display:none;
+	}
+	#nav ul{
+		width:100%;
+	}
+	#adver,#headline{
+		padding:45px 0 0 0;
+	}
+	#nav ul li{
+		width:25%;
+	}
+	#adver .center{
+		width:58%;
+		height:40px;
+		margin:-25px 0px 0px -10%;
+	}
+	#adver input.search,#adver input.btn{
+		font-size:14px;
+		height:36px;
+	}
+	#footer .sm-visible{
+		display:block;
+	}
+	#footer #copyright{
+		font-size:16px;
+	}
+	#content .center h1{
+		font-size:26px;
+	}
+	#content .center p{
+		font-size:13px;
+	}
+	#content figure{
+		width:99%;
+	}
+	#headline hgroup h1{
+		font-size:20px;
+	}
+	#headline hgroup h2{
+		font-size:12px;
+	}
+	#container .list{
+		width:99%;
+		padding:0 20px;
+	}
+	#container .introduction h2, #container .pic h2, #container .ticket h2{
+		font-size:22px;
+	}
+	#container .introduction p, #container .ticket .new ul, #container .ticket table, #container .ticket table .reserve{
+		font-size:14px;
+	}
+	#container .introduction address{
+		font-size:14px;
+	}
+	#container .pic figcaption{
+		font-size: 18px;
+	}
+	#container .list{
+		width:100%;
+	}
+	#container .pic figure{
+		width:100%;
+	}
+	#container .ticket .left, #container .ticket .right, #container .ticket .bnt{
+		width:98%;
+		display:block;
+	}
+	#container .ticket input{
+		width:98%;
+		height:35px;
+	}
+	#container .ticket p{
+		line-height:2;
+	}
+	#container .ticket .submit{
+		display:block;
+		width:30%;
+		height:auto;
+		line-height:2;
+		position:static;
+		margin:10px auto;
+	}
+	#container .tour figcaption .buy{
+		width:20%;
+		left:65%;
+		bottom:15px;
+	}
+	#container .tour figcaption header{
+		width:80%;
+	}
+	#container .tour .price s{
+		display:none;
+	}	
+	#container .tour .price strong{
+		font-size:20px;	
+	}
+	#container .tour h2{
+		font-size:16px;		
+	}
+	#container .tour .price{
+		margin-bottom:0px;
+	}
+	#container .tour .reserve{
+		font-size:14px;	
+		height:30px;
+		line-height:30px;
+	}
+	#container #info{
+		font-size:14px;
+	}
+	#container #info{
+		height:35px;
+	}
+	#container #info #sale, #container #info #res li{
+		height:35px;
+		line-height:35px;
+	}
+	#container .tour .disc, #container .tour .disc span {
+		height: 40px;
+		width: 40px;
+		font-size:12px;
+	}
+	#container #info #res li .active{
+		padding:1px 1px;
+	}
+	#container .tour .tip{
+		width:60px;
+		height:20px;
+		font-size:10px;
+	}
+}
+@media (max-width: 456px){
+	#container .tour .price{
+		display:none;
+	}	
+	#container .tour .disc, #container .tour .disc span {
+		height: 35px;
+		width: 35px;
+		font-size:10px;
+	}	
+}
+@media (max-width: 400px){
+	#container .tour hgroup h2 span{
+		display:none;
+	}
+	#container .tour hgroup h2{
+		font-size:16px;
+	}	
+}
+
+
+
+

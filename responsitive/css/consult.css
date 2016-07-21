@@ -1,0 +1,171 @@
+/* CSS Document */
+#container #info{
+	height:50px;
+	color:#666;
+	font-size:20px;
+	margin-bottom:20px;
+	background-color:#eee;
+}
+#container #info #sale{
+	width:48%;
+	line-height:48px;
+	text-align:center;
+	border-left:1px solid #eee;
+	float:left;
+}
+#container #info #sale li{
+	width:49%;
+	float:left;
+}
+#container #info #sale .green{
+	height:50px;
+	background-color:#FFFFFF;
+	border-top:2px solid #33FF00;
+}
+#container #info #res{
+	width: 51%;
+	float:right;
+}
+#container #info #res li .active{
+	padding:3px 8px;
+	background-color:#33FF00;
+}
+#container #info #res li{
+	width:33.3%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+}
+#container #info #res li a:hover{
+	color:#FFFFFF;
+	padding:3px 8px;
+	background-color:#33FF00;
+}
+#container .tour{
+	position:relative;
+	margin-bottom:20px;
+	border:1px solid #eee;
+}
+.tour:after{
+	content:".";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+#container .tour img{
+	width:55%;
+	float:left;
+}
+#container .tour figcaption{
+	width:45%;
+	float:right;
+}
+#container .tour figcaption header{
+	width:70%;
+}
+#container .tour figcaption hgroup{
+	width:98%;
+	line-height:2;
+}
+#container .tour figcaption .buy{
+	width:13%;
+	position:absolute;
+	text-align:center;
+	left:87%;
+	bottom:30%;
+}
+#container .tour h2{
+	font-size:24px;
+	color:#333;
+	padding:10px 0px 10px 20px;
+}
+#container .tour h3{
+	font-size:16px;
+	font-weight:normal;
+	color:#666;
+	padding:0px 0px 10px 20px;
+}
+#container .tour ol{
+	width:calc(70% - 20px);
+	line-height:2;
+	color:#666;
+	padding:0 0 0 20px;
+}
+#container .tour mark{
+	padding:0 5px;
+	border-radius:5px;
+	background-color:#FFFFFF;
+	color:#99FF00;
+	border:1px solid #99FF00;
+}
+#container artical{
+	display:block;
+}
+#container .tour .price{
+	color:#FF6600;
+	font-size:18px;
+	margin-bottom:15px;
+}
+#container .tour .price strong{
+	font-size:34px;
+	font-weight:bold;
+}
+#container .tour s{
+	color:#666;
+}
+#container .tour .reserve{
+height:40px;
+line-height:40px;
+font-size:24px;
+border-radius:5px;
+background-color:#FF6600;
+color:#FFFFFF;
+}
+#container .tour .tip{
+	width:80px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	color:#fff;
+	background-color:#33FF00;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+}
+#container .tour footer{
+	width:45%;
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	position:absolute;
+	bottom:0px;
+}
+#container .tour footer time{
+	color:#33FF00;
+}
+#container .tour .disc{
+	height:52px;
+	width:52px;
+	background-image:url(../img/disc.png);
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#container .tour .disc span{
+	display:block;
+	height:52px;
+	width:52px;
+	padding-top:5px;
+	text-align:center;
+	color:#FF6600;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);		/* IE 9 */
+	-o-transform: rotate(45deg);		/* Opera */
+	-moz-transform: rotate(345deg);
+	-webkit-transform: rotate(45deg);
+}
+
+
+

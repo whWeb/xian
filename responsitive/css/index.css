@@ -1,0 +1,117 @@
+/* CSS Document */
+#adver{
+	position:relative;
+	margin:0px auto;
+	max-width:1920px;
+	padding:70px 0 0 0;
+}
+#adver img{
+	display:block;
+	max-width:100%;
+	position:relative;
+}
+#adver .center{
+	width:40%;
+	height:60px;
+	margin:-80px 0px 0px -10%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background-color:#000;
+	opacity:0.4;
+}
+#adver .copy{
+	opacity:1;
+	padding:2px 1px 0 1px;
+	background-color:transparent;
+}
+#adver input.search{
+	height: 56px;
+	width: 70%;
+	display:block;
+	float:left;
+	font-size:24px;
+	color:#666;
+	padding:0px 10px;
+	border: 1px solid #666;
+	border-radius:10px;
+	outline: none;
+}
+#adver input.btn{
+	height: 56px;
+	width: 30%;
+	display:block;
+	float:right;
+	font-size:24px;
+	font-weight:bold;
+	color:#666;
+	border-radius:10px;
+	border: 1px solid #333;
+	border-left-width: 3px;
+	outline: none;
+	background-color:#eee;
+}
+
+#content{
+	max-width:1263px;
+	margin:15px auto;
+	text-align:center;
+}
+#content .center h1{
+	font-size:45px;
+	color:#666;
+	letter-spacing:2px;
+}
+#content .center p{
+	color:#666;
+	font-size:16px;
+	margin:10px 10px;
+}
+#content figure{
+	width:32.4%;
+	border:1px solid #ddd;
+	display:block;
+	float:left;
+	padding:4px;
+	border-radius:4px;
+	margin:15px 0.4%;
+	position:relative;
+	text-align:left;
+}
+#content figcaption{
+	color:#666;
+	height:45px;
+	overflow:hidden;
+	line-height:1.5;
+	letter-spacing:1px;
+}
+#content .tip{ 
+	width:100px;
+	height:25px;
+	color:#fff;
+	text-align:center;
+	line-height:25px;
+	background-color:#00FF33;
+	position:absolute;
+}
+#content .stf{
+	font-size:13px;
+	font-style:normal;
+	color:#666;
+	float:right;
+	position:relative;
+	top:5px;
+	left:-4px;
+}
+#content .price{
+	color:#FF9900;
+	font-size:14px;
+}
+#content .price strong{
+	font-size:20px;
+}
+#content a{
+	display:block;
+}
+
+

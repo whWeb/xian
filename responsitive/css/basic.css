@@ -1,0 +1,243 @@
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+}
+body {
+	background-color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+img{
+	max-width:100%;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+div, #adver .center, input, figure, img{
+	box-sizing:border-box;
+}
+#nav{
+	width:100%;
+	height:70px;
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	background-color:#333;
+	}
+#nav .center{
+	max-width:1263px;
+	height:70px;
+	display:block;
+	margin:0px auto;
+}
+#nav .center h1{
+	height:70px;
+	width:30%;
+	text-indent:-9999px;
+	float:left;
+	background:url(../img/logo.jpg) no-repeat left center;
+}
+#nav ul{
+	width:70%;
+	float:right;
+}
+#nav ul li{
+	width:20%;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	float:left;
+	list-style-type:none;
+}
+#nav .active, #nav li:hover{
+	background-color:#000000;
+}
+#nav a{
+	color:#FFFFFF;
+}
+#nav .none{
+	display:none;
+}
+#footer{
+	clear:both;
+	background:#222;
+}
+#footer #link{
+	max-width:1263px;
+	height:281px;
+	color:#666;
+	text-align:center;
+	margin:0px auto;
+	background-color:#222;
+}
+#footer #link .block{
+	width:33.333%;
+	height:280px;
+	display:block;
+	float:left;
+	text-indent:20px;
+	text-align:left;
+}
+#footer #link ul{
+	font-size:18px;
+	line-height:2;
+}
+#footer #link h1{
+	font-size:24px;
+	padding-top:20px;
+}
+#footer .sm-visible{
+	color:#777;
+	padding:10px 0;
+	text-align:center;
+	display:none;
+}
+#footer #copyright{
+	color:#777;
+	text-align:center;
+	padding:15px 0;
+	border-top:1px solid #444;
+	background-color:#000000;
+}
+#footer hr{
+	width:90%;
+	margin:10px 10px 10px 20px;
+	border:1px dashed #333;
+}
+/*index.html以外的css样式设置*/
+#headline{
+	max-width:1920px;
+	margin:0px auto;
+	padding:70px 0 0 0;
+	position:relative;
+}
+#headline img{
+	opacity:0.8;
+}
+#headline hgroup{
+	position:absolute;
+	top:65%;
+	left:3%;
+}
+#headline hgroup h1{
+	color:#888;
+	font-size:36px;
+}
+#headline hgroup h2{
+	color:#888;
+	font-size:20px;
+}
+#container{
+	max-width:1263px;
+	margin:30px auto;
+}
+#container .list{
+	width:72%;
+	float:left;
+}
+#container .sidebar{
+	width:27%;
+	float:right;
+}
+#container .sidebar .sider{
+	border:1px solid #eee;
+	margin-bottom:10px;
+}
+#container .sider h2{
+	height:40px;
+	line-height:40px;
+	color:#666;
+	text-indent:7.5px;
+	color:#666;
+	letter-spacing:1px;
+	font-size:20px;
+	font-weight:normal;
+}
+#container .sider ul{
+	width:100%;
+	height:315px;
+	margin:10px auto;
+}
+#container .sider ul li{
+	width:95px; 
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	margin:5px;
+	background-color:#eee;
+	float:left;
+}
+#container .sider ul li a{
+	color:#999;
+	display:block;
+	width:95px;
+	height:35px;
+}
+#container .sider ul li a:hover{
+	background-color:#33FF00;
+}
+#container .sider.mid{
+	text-align:center;
+}
+#container .sider .recm{
+	width:308px;
+	margin:10px auto;
+	display:inline-block;
+}
+#container .sider h2{
+	text-align:left;
+	text-indent:7.5px;
+}
+#container .sider .recm figure{
+	display:inline-block;
+}
+#container .sider .recm figcaption{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+#container .sider .box{
+	width:300px;
+	height:100px;
+	margin:10px auto;
+}
+#container .sider .box .t1{
+	background:#eee url(../img/trea1.png) no-repeat 10px;
+}
+#container .sider .box .t2{
+	background:#eee url(../img/trea2.png) no-repeat 10px;
+}
+#container .sider .box .t3{
+	background:#eee url(../img/trea3.png) no-repeat 10px；
+}
+#container .sider .box .t4{
+	background:#eee url(../img/trea4.png) no-repeat 10px;
+}
+#container .sider .box a{
+	width:140px;
+	height:40px;
+	color:#999;
+	text-align:left;
+	text-indent:35px;
+	line-height:40px;
+	margin:5px 5px;
+	background-color:#eee;
+	display:block;
+	float:left;
+}
+
+#container .ticket{
+	color:#666;
+}
+#container .ticket h2, .pic h2, .introduction h2{
+	height:40px;
+	line-height:40px;
+	font-size:30px;
+	font-weight:normal;
+	padding-bottom:15px;
+	border-bottom:1px dashed #eee;
+}
